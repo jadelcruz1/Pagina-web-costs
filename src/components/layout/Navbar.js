@@ -8,11 +8,13 @@ import logo from "../../img/costs_logo.png";
 
 function Navbar() {
   return (
-    <div className={styles.navbar}>
+    <>
+     <div className={styles.navbar}>
       <Container>
         <Link to="/">
           <img src={logo} alt="Costs" />
         </Link>
+        <h2>Jupyter Cost System</h2>
         <ul className={styles.list}>
           <li className={styles.item}>
             <Link to="/">Home</Link>
@@ -28,7 +30,9 @@ function Navbar() {
           </li>
         </ul>
       </Container>
+      
     </div>
+    </> 
   );
 }
 

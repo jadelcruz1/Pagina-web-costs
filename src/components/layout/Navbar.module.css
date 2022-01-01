@@ -24,3 +24,11 @@
     color: #ffbb33;
     text-decoration: none;
   }
+
+  h2 {
+    margin-left: -1em;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 1em;
+  }
