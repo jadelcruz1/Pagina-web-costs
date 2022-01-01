@@ -1,74 +1,15 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "budget": "333",
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "teste",
-      "budget": "444",
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "jardel2",
-      "budget": "768",
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "guy",
-      "budget": "109",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "guy",
-      "budget": "109",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "guyi",
-      "budget": "1097",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "fiat",
-      "budget": "1097666",
+      "name": "Jardel",
+      "budget": "123",
       "category": {
         "id": "5",
         "name": "Projeto teste"
       },
       "cost": 0,
       "services": [],
-      "id": 8
+      "id": 1
     }
   ],
   "categories": [

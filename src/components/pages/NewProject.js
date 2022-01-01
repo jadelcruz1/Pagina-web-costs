@@ -2,9 +2,10 @@ import styles from './NewProject.module.css'
 import ProjectForm from '../project/ProjectForm'
 import { useNavigate } from 'react-router-dom'
 
+
 function NewProject(){
 
-  const history = useNavigate()
+  const navigate = useNavigate()
 
   function createPost(project){
     
@@ -14,7 +15,7 @@ function NewProject(){
     project.cost = 0
     project.services = []
 
-    fetch("http://localhost:5000/projects", {
+    fetch('http://localhost:5000/projects', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
@@ -25,7 +26,7 @@ function NewProject(){
       .then((resp) => resp.json())
       .then((data) => {
           console.log(data)
-          history.push('/projects', {message: 'Projeto criado com sucesso!'})
+          navigate('/projects', {message: 'Projeto criado com sucesso!'})
       })
       .catch((err)=> console.log(err))
 
