@@ -8,7 +8,7 @@ function Home(){
         
         <section className={styles.home_container}> 
             <h1>Bem-Vindo ao <span> Jupyter Costs System</span></h1>
-            <p> Comece a gerenciar seus projetos agora mesmo !</p>
+            <p> Gerenciar seus projetos agora mesmo consoco!</p>
             <LinkButton to="/newproject" text="Criar Projeto" />
             <img src={savings} alt="Costs" />
 

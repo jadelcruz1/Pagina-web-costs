@@ -45,17 +45,6 @@
       "id": 4
     },
     {
-      "name": "Compra Lote",
-      "budget": "105.000",
-      "category": {
-        "id": "5",
-        "name": "Projeto teste"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
       "name": "Viagem",
       "budget": "5.000",
       "category": {
