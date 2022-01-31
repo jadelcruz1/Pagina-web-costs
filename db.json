@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Macbook 16'",
-      "budget": "16.000",
+      "budget": "17.000",
       "category": {
         "id": "1",
         "name": "Infra"
