@@ -1,3 +1,6 @@
+h2{
+    color:#222;
+}
 .project_details {
     padding: 2em;
   }
@@ -26,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
   }
   
   .btn {
@@ -47,3 +51,4 @@
   .project_info {
     width: 100%;
   }
+
